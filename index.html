@@ -3,48 +3,59 @@
     <head>
         <title>Catalina Davis Personal Website</title>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css" />
     </head>
 <body>
     <header>
         <h1>Personal Website</h1>
-        <nav>
-            <a href="favoriterecipes.html">My favorite recipes</a>
-            <a href="lexfanpage.html">My favorite cat</a>
+        <nav class = "navbar">
+            <ul>
+                <li><a href="favoriterecipes.html">My favorite recipes</a></li>
+                <li><a href="lexfanpage.html">My favorite cat</a></li>
+            </ul>
         </nav>
     </header>
-    <hr>
         <h2>About Me</h2>
         <section>
-            <p>I am a computer science major at Cal Poly Pomona who loves cats and cooking. I love them so much that I created their own pages. Click above links to go see them</p>
+            <p class="description">I am a computer science major at Cal Poly Pomona who loves cats and cooking. I love them so much that I created their own pages. Click above links to go see them</p>
     <hr>
             <div>
-                <h3>My favorites</h3>
-                    <p>Here is some lists of some my favorite music, shows, and games</p>
+                <h2>My favorites</h2>
+                    <p class="list">Here is some lists of some my favorite music, shows, and games</p>
                 <h4>My favorite shows</h4>
-                <ol>
-                    <li>One Piece</li>
-                    <li>What We Do in the Shadows</li>
-                    <li>Full Metal Alchemist: Brotherhood</li>
-                    <li>Avatar: The Last Airbender</li>
-                    <li>Cowboy Bebop</li>
-                </ol>
-                <aside>
-                    <img src="pictures/onepiece.jpg" alt="one piece official art" width="300" height="300">
-                    <img src="pictures/cowboyBebop.jpg" alt="cowboy bebop official art" width="300" height="300">
-                </aside>
-                <h4>My favorite music artists</h4>
+            <div class="Shows">
+                    <ol>
+                        <li>One Piece</li>
+                        <li>What We Do in the Shadows</li>
+                        <li>Full Metal Alchemist: Brotherhood</li>              
+                        <li>Avatar: The Last Airbender</li>
+                        <li>Cowboy Bebop</li>
+                    </ol>
+                    <aside>
+                        <img src="pictures/onepiece.jpg" alt="one piece official art">
+                    </aside>
+                    <aside>
+                    <img src="pictures/cowboyBebop.jpg" alt="cowboy bebop official art">
+                    </aside>
+            </div>
+            <h4>My favorite music artists</h4>
+            <div class = "Music">
                 <ol>
                     <li>Kali Uchis</li>
                     <li>MF DOOM</li>
                     <li>MARINA</li>
                     <li>Rina Sawayama</li>
                     <li>Laufey</li>
-                </ol>
+                </ol> 
                 <aside>
-                    <img src="pictures/mfFood.png" alt="MF DOOM album cover" width="300" height="300">
-                    <img src="pictures/kali.jpg" alt="kali uchis album cover" width="300" height="300">
+                    <img src="pictures/mfFood.png" alt="MF DOOM album cover">
                 </aside>
-                <h4>My favorite games</h4>
+                <aside>
+                    <img src="pictures/kali.jpg" alt="kali uchis album cover">
+                </aside>
+            </div>
+            <h4>My favorite games</h4>
+            <div class = "Games">
                 <ol>
                     <li>The Persona Series</li>
                     <li>Yakuza 0</li>
@@ -53,17 +64,21 @@
                     <li>Xenoblade Chronicles</li>
                 </ol>
                 <aside>
-                    <img src="pictures/p5.webp" alt="Persona 5 official art" width="300" height="300">
-                    <img src="pictures/octopath.webp" alt="Octopath Traveler II official art" width="300" height="300">
+                    <img src="pictures/p5.webp" alt="Persona 5 official art">
                 </aside>
+                <aside>
+                    <img src="pictures/octopath.webp" alt="Octopath Traveler II official art">
+                </aside>
+            </div>
             </div>
         </section>
     <hr>
     <footer>
         <p>Contact me here</p>
         <ul>
-            <li><address><a href="www.linkedin.com/in/catalina-davis-8a517b258">LinkedIn</a></address></li>
-            <li><address><a href="https://www.instagram.com/catalinadavis14/">Instagram</a></address></li>        </ul>
+            <li><address><a href="www.linkedin.com/in/catalina-davis-8a517b258"><img src="pictures/linkedin.png" alt=""></a></address></li>
+            <li><address><a href="https://www.instagram.com/catalinadavis14/"><img src="pictures/instagram.png"></a></address></li>       
+         </ul>
     </footer>
 </body>
 </html>
